@@ -1,0 +1,39 @@
+body {
+    color: #333;
+}
+
+.accordion {
+    width: 80vw;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.accordion details {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.accordion summary {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+}
+
+.accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.accordion details[open] summary {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
